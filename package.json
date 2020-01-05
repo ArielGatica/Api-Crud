@@ -1,0 +1,28 @@
+{
+  "name": "api-crud",
+  "version": "1.0.0",
+  "description": "Backend create with Node.js and express for a CRUD",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArielGatica/Api-Crud.git"
+  },
+  "author": "Ariel Gatica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArielGatica/Api-Crud/issues"
+  },
+  "homepage": "https://github.com/ArielGatica/Api-Crud#readme"
+}
